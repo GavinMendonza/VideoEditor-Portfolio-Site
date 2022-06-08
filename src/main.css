@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    color: #eeeeee;
+    padding-right: 0.5em;
+    /* background-color: #eae7dc; */
+    font-family: "Montserrat","Roboto Flex","Open Sans",'quicksand', sans-serif;
+}
+
+
+/* navbar css starts here*/
+.navbar{
+    /* background-color: #eae7dc; */
+    background-color: white;
+    background-color: #000000;
+    max-width: 100%;
+    /* display: none; */
+    /* box-shadow: 0 0 5px rgb(0, 0, 0,0.5); */
+}
+
+.navbar-brand{
+    margin-left: 2vw;
+    /* font-size: 2em; */
+    font-size: clamp(1.7em, 3vw, 24px);
+}
+
+.navbar-nav{
+    margin-right: 2em;
+}
+.nav-item{
+    margin-right: 2em;
+    /* border: solid 1px white; */
+}
+.nav-item:hover{
+    border: solid 1px black;
+}
+
+.nav-link{
+    font-size: clamp(1em, 2vw, 18px);
+}
+
+.bold{
+    font-weight: 700;
+}
+.extraBold{
+    font-weight: 900;
+}
+
+.nav-item-bold{
+    font-weight: 600;
+}
+
+/* .blue-for-active-link{
+    color: #3e83fb;
+} */
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 64px;
+    width: 100%;
+    background-color: #eae7dc;
+
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.5);
+}
+.navbar-logo{
+    /* display: inline-block; */
+    vertical-align: top;
+    height: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.navbar-heading{
+    display: inline-block;
+    margin-top: 17px;
+}
+
+
+/* navbar css ends here */
+
+
+/* main css starts here */
+main{
+    margin-top: 5em;
+}
+
+.billboardContent h1{
+    text-align: center;
+    font-size: 3.375em;
+    font-size: clamp(3em,9vw,3.375em);
+
+    padding: 0.1em 0em ;
+}
+.billboardContent h2{
+    text-align: center;
+    font-size: 2.8125em;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+}
+.gridItem{
+    display: grid;
+    place-items: center;
+}
+.gridItem img{
+    max-height: 400px;
+}
+/* main css ends here */
+
+/* utility css starts here */
+.bold{
+    font-weight: 700;
+}
+/* utility css ends here */
